@@ -1,0 +1,1 @@
+document.querySelector('.heading').innerHTML = "JS BASICS"

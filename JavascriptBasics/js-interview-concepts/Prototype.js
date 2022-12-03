@@ -1,35 +1,42 @@
 document.querySelector('.heading').innerHTML = "prototype and prototypal inheritance"
 
-let arr = ["nidhin","akshay"]
+function RectAngle(params) {}
 
-let obj1 = {
-    name:'nidhin',
-    age:23,
-    sayMyName:()=>{
-        console.log()
-    }
-}
+RectAngle.prototype.addOneLine = "Adding One Line"
+RectAngle.prototype.addTwoLine = "Adding Two Line"
+RectAngle.prototype.addThreeLine = "Adding Three Line"
+RectAngle.prototype.addFourLine = "Adding Four Line"
 
-Function.prototype.callMyName = function (params) {
-    console.log("saying my name")
-}
+// let arr = ["nidhin","akshay"]
 
-function fun(){}
+// let obj1 = {
+//     name:'nidhin',
+//     age:23,
+//     sayMyName:()=>{
+//         console.log()
+//     }
+// }
 
-fun.prototype.foo = "bar"
+// Function.prototype.callMyName = function (params) {
+//     console.log("saying my name")
+// }
 
-Array.prototype.one = function (){
-    console.log('one in here')
-}
+// function fun(){}
 
-let obj2 = {
-    name:"sankar",
-}
+// fun.prototype.foo = "bar"
 
-Object.prototype.sayingName = function (){
-    console.log('saying name in here')
-}
+// Array.prototype.one = function (){
+//     console.log('one in here')
+// }
 
-Object.prototype.linkName = "linking link in here"
+// let obj2 = {
+//     name:"sankar",
+// }
 
-obj2.__proto__ = obj1 
+// Object.prototype.sayingName = function (){
+//     console.log('saying name in here')
+// }
+
+// Object.prototype.linkName = "linking link in here"
+
+// obj2.__proto__ = obj1 
